@@ -1,0 +1,51 @@
+# Build directories
+build/
+bin/
+
+# Compiled objects / libs / executables
+*.o
+*.a
+*.so
+*.lo
+*.la
+*.out
+*.exe
+
+# Debug / core dumps
+core
+core.*
+*.core
+vgcore.*
+*.dSYM/
+
+# Archives & intermediate
+*.tar
+*.tar.*
+*.zip
+*.7z
+
+# Editor / OS cruft
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Visual Studio legacy artifacts (should be removed, but ignore if re-created)
+*.sln
+*.vcxproj*
+*.vcproj*
+*.filters
+*.user
+ipch/
+*.opensdf
+*.sdf
+*.pdb
+
+# Generated externals archive
+build/externals/libexternals.a
+
+# Misc
+.tags
+.clangd
+compile_commands.json
